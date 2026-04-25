@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Environment variables (NEVER commit these!)
+.env
+.env.example
+.env.local
+.env.*.local
+.env.local
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Secrets & Credentials
+*.passwords.txt
+secrets/
+credentials/
+SGP*.txt
+SGP passwords.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+
